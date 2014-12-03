@@ -1,0 +1,30 @@
+{
+  "name": "es6string",
+  "version": "1.0.0",
+  "description": "a polyfill library for ES6 new String method",
+  "main": "es6string.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabez128/es6string"
+  },
+  "keywords": [
+    "es6",
+    "string",
+    "polyfill"
+  ],
+  "author": "jabez128",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jabez128/es6string/issues"
+  },
+  "homepage": "https://github.com/jabez128/es6string",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp-minify": "0.0.5",
+    "gulp-uglify": "^1.0.1",
+    "mocha": "^2.0.1"
+  }
+}
